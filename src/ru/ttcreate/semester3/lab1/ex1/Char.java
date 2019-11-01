@@ -1,6 +1,6 @@
-package ru.ttcreate.semester3.lab1;
+package ru.ttcreate.semester3.lab1.ex1;
 
-public class Lab1 {
+public class Char {
     private static char c;
 
     public static void main(String[] args) {

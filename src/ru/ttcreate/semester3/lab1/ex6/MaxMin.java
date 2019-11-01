@@ -1,20 +1,20 @@
-package ru.ttcreate.semester3.lab6;
+package ru.ttcreate.semester3.lab1.ex6;
 
-public class Lab6 {
+public class MaxMin {
     private int min;
     private int max;
 
-    public Lab6(int intA, int intB) {
+    public MaxMin(int intA, int intB) {
         setMaxMin(intA, intB);
     }
 
     public static void main(String[] args) {
         System.out.println("Example 1:");
-        Lab6 lab = new Lab6(60, 30);
+        MaxMin lab = new MaxMin(60, 30);
         lab.showMaxMin();
 
         System.out.println("\nExample 2:");
-        Lab6 lab2 = new Lab6(10, 30);
+        MaxMin lab2 = new MaxMin(10, 30);
         lab2.showMaxMin();
     }
 

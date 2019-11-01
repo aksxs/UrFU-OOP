@@ -1,14 +1,14 @@
-package ru.ttcreate.semester3.lab5;
+package ru.ttcreate.semester3.lab1.ex5;
 
-public class Lab5 {
+public class IntegerMore100 {
     private int intA;
 
-    public Lab5(int intA) {
+    public IntegerMore100(int intA) {
         setIntA(intA);
     }
 
     public static void main(String[] args) {
-        Lab5 lab5Object = new Lab5(88);
+        IntegerMore100 lab5Object = new IntegerMore100(88);
         lab5Object.checkIntMore100();
     }
 

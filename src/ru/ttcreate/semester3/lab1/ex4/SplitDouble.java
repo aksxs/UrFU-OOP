@@ -1,10 +1,10 @@
-package ru.ttcreate.semester3.lab4;
+package ru.ttcreate.semester3.lab1.ex4;
 
-public class Lab4 {
+public class SplitDouble {
     private char charA;
     private int intB;
 
-    public Lab4(double doubleC) {
+    public SplitDouble(double doubleC) {
         System.out.println("Char and code: " + (char)(int)doubleC + " " + (int)doubleC);
 
         // Получаем дробную часть из Double
@@ -12,12 +12,12 @@ public class Lab4 {
         System.out.println("Int: " + doubleStr.substring(0, 2)); // Вывод 2-х символов
     }
 
-    public Lab4(char charA, int intB) {
+    public SplitDouble(char charA, int intB) {
         this.charA = charA;
         this.intB = intB;
     }
 
     public static void main(String[] args) {
-        new Lab4(65.1267);
+        new SplitDouble(65.1267);
     }
 }

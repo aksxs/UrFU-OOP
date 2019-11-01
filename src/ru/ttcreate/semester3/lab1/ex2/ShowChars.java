@@ -1,11 +1,11 @@
-package ru.ttcreate.semester3.lab2;
+package ru.ttcreate.semester3.lab1.ex2;
 
-public class Lab2 {
+public class ShowChars {
     static char charA = 'A';
     static char charB = 'D';
 
     public static void main(String[] args) {
-        Lab2.showChars();
+        ShowChars.showChars();
     }
 
     public static void showChars() {
